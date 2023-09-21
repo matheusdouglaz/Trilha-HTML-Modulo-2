@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha-HTML-02</title>
+    <link rel="stylesheet" href="base.css">
+    <!-- letra montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  
+    <!-- icones do Rodapé --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  </head>
+  
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <ul list style type="square">
+          <li><a href="#">Página Principal</a></li><br>
+          <li><a href="#content">Sobre a clínica</a></li><br>
+          <li><a href="#horario">Horário de Atendimento</a></li><br>
+          <li><a href="#iframe">Contato</a></li><br>
+          <li><a href="#Redes Sociais">Redes Sociais</a></li>
+        </ul>
+      </div>
+  
+      <div class="main">
+        <div class="header">
+          <!-- Logo da Clinica -->
+          <img src="https://i.ibb.co/TPLDYd3/Clinica-Lumire-Logo-Original-5000x5000.png" alt="Clinica-Lumire-Logo-Original-5000x5000" border="0" width="250px" ></a>
+  
+        </div>
+  
+        <div class="content">
+  
+          <!-- Texto sobre a clinia -->
+          <p>A Clínica de Estética Lumière, com 10 anos de experiência no mercado, é uma referência em cuidados estéticos.</p>
+  
+          <p>Oferecendo uma ampla gama de serviços completos, a Lumière utiliza tecnologia de ponta e uma equipe altamente qualificada para proporcionar tratamentos personalizados que realçam a beleza natural e a autoconfiança dos clientes.</p>
+  
+          <p>Com foco na segurança e eficácia, a clínica mantém um histórico de sucesso e satisfação dos pacientes, reafirmando seu compromisso em promover o bem-estar e a beleza de forma profissional e confiável.</p>
+
+  
+          <!-- cabeçalho da tabela -->
+          <div id="horario" class="horario">
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>Serviços</th>
+                  <th>Segunda a Sexta</th>
+                  <th>Sábados</th>
+                  <th>Feriados</th>
+                </tr>
+              </thead>
+              <!-- corpo da tabela -->
+              <tbody>
+                <tr>
+                  <td>Tratamentos Faciais</td>
+                  <td>08h - 19h</td>
+                  <td>08h - 14h</td>
+                  <td>08h - 14h</td>
+                </tr>
+                <tr>
+                  <td>Tratamentos Corporais</td>
+                  <td>08h - 19h</td>
+                  <td>08h - 14h</td>
+                  <td>08h - 14h</td>
+  
+                </tr>
+  
+                <tr>
+                  <td>Cuidados com a Pele</td>
+                  <td>08h - 19h</td>
+                  <td>08h - 18h</td>
+                  <td>-</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <td>Serviços de Spa e Relaxamento</td>
+                <td>08h - 18h</td>
+                <td>08h - 14h</td>
+                <td>-</td>
+              </tfoot>
+            </table>
+          </div>
+  
+          <h2 class="preencha">preencha nosso formulário e agende sua consulta hoje mesmo!</h2><br>
+  
+          <div id="separacao">
+            <!-- formulario -->
+            <div id="Formulario" Class="column">
+              <form method="Post" action="0">
+  
+                <input type="text" name="Nome" placeholder="digite seu Nome aqui"><br>
+                <input type="e-mail" name="Email" placeholder="Digite seu e-mail"><br>
+                <input type="text" name="Assunto" placeholder="Digite o assunto"><br>
+                <input type="textarea" name="texto"><br>
+                <button type="reset">Limpar Formulário</button>
+                <button type="submit">Enviar Formulário</button>
+              </form>
+            </div>
+  
+            <!-- iframe -->
+            <div id="iframe" class="column">
+              <iframe id="iframe" src="https://www.google.com/maps/d/embed?mid=13pI1GTt5tkPnXnOaLoVuw6m1ufM&hl=en_US&ehbc=2E312F" width="400" height="300" style="border:10;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <p>Telefone: (61) 9-9415-1115 </p>
+  
+            </div>
+  
+          </div>
+          <!-- Aqui vai o seu rodapé -->
+          <div class="footer">
+            <div>
+              <h2>Alguma duvida?</h2>
+              <h5> entre em contato conosco</h5>
+  
+              <div id="Redes Sociais" class="Logo_rodape">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+  
+  </html>

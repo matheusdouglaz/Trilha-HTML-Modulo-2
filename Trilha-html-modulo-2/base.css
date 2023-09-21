@@ -1,0 +1,183 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #C7C7C7;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: #C7C7C7;
+  padding: 10px 20px 0px;
+  color: white;
+}
+.header {
+  background-color: White;
+  min-height: 150px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.content {
+  background-color:white;
+  min-height: 300px;
+  padding: 50px;
+  
+}
+
+
+.footer {
+  background-color: white;
+  min-height: 150px;
+}
+p {
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h5 {
+  text-align: center;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.preencha{
+    color:#black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  padding: 20px;
+  background: #3b5998;
+  color: White;
+}
+
+.fa-twitter {
+  padding: 20px;
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  padding: 20px;
+  background: #e53935;
+  color: white;
+}
+
+.fa-instagram {
+  padding: 20px;
+  background: #ec407a;
+  color: white;
+}
+
+.fa-youtube {
+  padding: 20px;
+  background: red;
+  color: white;
+}
+
+.fa-linkedin {
+  padding: 20px;
+  background: #3949ab;
+  color: white;
+}
+
+.Logo_rodape {
+  justify-content: center;
+  text-align: center;
+}
+a:link {
+  color: black;
+}
+
+.horario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+th,
+td {
+  padding: 20px;
+  border: 3px solid white;
+}
+
+#separacao {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+#Formulario {
+  width: 50%;
+  postion: left;
+}
+
+#iframe {
+  width: 100%;
+  postion: right;
+}
+
+button {
+  background-color: #DCBD63;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  cursor: pointer;
+  justify-content: center;
+}
+form {
+  width: 100%;
+  background: White;
+  padding: 4px;
+  text-align: left;
+}
+
+input {
+  width: 90%;
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type="textarea"] {
+  width: 90%;
+  height: 130px;
+}
